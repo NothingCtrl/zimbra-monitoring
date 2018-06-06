@@ -7,7 +7,7 @@ Simple app for monitoring Zimbra Mail Server (tested with ZC 8.7.7 on Ubuntu 16.
 
 * Monitoring zimbra service with zmcontrol, auto restart service if got problem
 * Monitoring postfix service port (25, 465, 587), auto restart service if got problem
-* Monitoring log file `zmmailboxd.out` to detect unexpected error that make services died silenly (unknow bug)
+* Monitoring log file `zmmailboxd.out` to detect unexpected error that make services died silenly (unknown bug)
 * Monitoring `maibox.log` for authentication failed (ex: hacking attempt), the report will send once per day
 * Email: Using Gmail to send error / report to admin email
 * Logs: Write simple log per day for audit in logs folder 
